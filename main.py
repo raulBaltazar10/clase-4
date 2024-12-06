@@ -1,7 +1,7 @@
 import time # Se importa la libreria time para dar descansos entre una funcion y otra
 
-def linea_espera(time):
-    for i in range(0, time):
+def linea_espera(time_sec):
+    for i in range(0, time_sec):
         print('-', end=' ')
         time.sleep(1)
 
