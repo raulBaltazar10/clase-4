@@ -6,3 +6,5 @@ user = input('Dame tu nombre: ')
 
 # Imprimimos el dato del usuario
 print(user)
+
+time.sleep(2)
